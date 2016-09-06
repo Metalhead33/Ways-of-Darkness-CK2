@@ -1,0 +1,55 @@
+titanius_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.8 0.8 0.6 }
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		Stephanus Ladislaus Azamercus
+	}
+	female_names = {
+		Salvia
+	}
+	church_of_titanius = {
+		graphical_culture = westerngfx
+
+		icon = 3
+		heresy_icon = 4
+		
+		color = { 0.8 0.8 0.6 }
+		
+		crusade_name = CRUSADE
+		scripture_name = BOOK_OF_VISIONS
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_TITANIUS GOD_CREATOR
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		investiture = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+
+}
